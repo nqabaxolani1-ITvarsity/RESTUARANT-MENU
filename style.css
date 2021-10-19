@@ -25,7 +25,7 @@ body{
     /********** HEADER*************/
 
 .header{
-    background-color: #26313a;
+    background-color: #1f2124;
     width: 100%;
     height: 50px;
     top: 0;
@@ -51,14 +51,14 @@ body{
         margin: auto;
         padding: 25px 10px 10px 10px;
          }
-
+         
  #home-logo-text{
     width: auto;
     display: block;
     margin: auto;
-    padding: 45px;
-
-
+    padding: 25px;
+        
+    
 }
 /********** HOME PAGE MENU *************/
 .home-menu-item {
@@ -75,37 +75,91 @@ margin-bottom: 10px;
 width: 80%;
 
 }
-    /********** MEAL PAGE*************/
+/*********** MEALS PAGE ***********/
+#meals{
+    padding-top: 50px;
+}
 
-#menu{
-    padding-top: 20px;
+.meals-details H1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.meals-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.meals-details-info p{
+    font-size: 13px;
+    display: inline-block;
+
+
+
+
+/*********** DRINKS PAGE ***********/
+}
+
+.drinks-details H3{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.drinks-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.drinks-details-info p{
+    font-size: 13px;
+    display: inline-block;
 }
 
 
- /********** MEALS PAGE MENU*************/
- .menu-list a{
-     text-decoration: none;
- }
- .menu-list-item {
-     border: 5px solid #1a1a1a;
-     margin: 10px;
+/*********** DESSERT PAGE ***********/
 
- }
- .menu-list-item h1{
-    font-weight: bold;
-    font-size: 20px;
-    color: #1a1a1a;
-    padding-left: 10px;
+.dessert-details H1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
 }
-.menu-list-item i{
-    float: right;
-    color: #1a1a1a;
-    padding-right: 20px;
+
+.dessert-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
 }
-.menu-list-item p{
-   font-size: 15px;
-   font-style: italic;
-   color: #4d4d4d;
-   margin-top: -7px;
-   padding-left: 10px;
+.dessert-details-info p{
+    font-size: 13px;
+    display: inline-block;
 }
+
+
+/*********** STARTERS PAGE ***********/
+
+.starters-details H1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.starters-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.starters-details-info p{
+    font-size: 13px;
+    display: inline-block;
+}
+
+
+
+
+
